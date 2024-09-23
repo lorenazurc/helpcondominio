@@ -27,7 +27,7 @@ const MainScreen = () => {
       />
       <Button title="Enviar Mensagem" onPress={handleSendMessage} />
       <Text style={styles.phoneNumber} onPress={handleCall}>
-        Telefone da Portaria: (21) 1234-5678
+        Fale com a Portaria: (21) 1234-5678
       </Text>
     </View>
   );
